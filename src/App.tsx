@@ -2,6 +2,8 @@ import React from 'react';
 import './App.scss';
 import FactoryMethodTemplate from "./components/FactoryMethod/FactoryMethodTemplate";
 import SingletonMethodMethodTemplate from "./components/SingletonMethod/SingletonMethodTemplate";
+import AdapterMethodTemplate from "./components/AdapterMethod/AdapterMethodTemplate";
+import FacadeMethodTemplate from "./components/FacadeMethod/FacadeMethodTemplate";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       </div>
       <FactoryMethodTemplate/>
       <SingletonMethodMethodTemplate/>
+      <AdapterMethodTemplate/>
+      <FacadeMethodTemplate/>
     </main>
   );
 }
